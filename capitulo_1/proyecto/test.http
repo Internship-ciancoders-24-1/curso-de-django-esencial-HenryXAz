@@ -1,0 +1,5 @@
+@hostname=http://localhost
+@port=8000
+
+# GET hello-world
+GET {{hostname}}:{{port}}/hello-world HTTP/1.1
