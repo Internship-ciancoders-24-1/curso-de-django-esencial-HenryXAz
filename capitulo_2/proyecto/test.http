@@ -1,0 +1,11 @@
+@hostname=http://localhost
+@port=8000
+
+### GET hello-world
+GET {{hostname}}:{{port}}/hello-world HTTP/1.1
+
+### GET sorted?numbers=1,2,3
+GET {{hostname}}:{{port}}/sorted?numbers=3,2,5,6,1 HTTP/1.1
+
+### GET say_hi
+GET {{hostname}}:{{port}}/hi/Henry/15 HTTP/1.1
